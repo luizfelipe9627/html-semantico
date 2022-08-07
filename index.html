@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Html Semântico</title>
+  </head>
+
+  <body>
+    <!-- O HEADER é usado para referenciar o cabeçalho do conteúdo. -->
+    <header>
+      <h1>Artigos News</h1>
+      <p>Aqui disponibilizamos as mais atuais noticias do mundo.</p>
+      <img src="https://images.unsplash.com/photo-1508161773455-3ada8ed2bbec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bm90aWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Noticias">
+    </header>
+
+    <!-- O NAV é usado para referenciar um menu de navegação. -->
+    <nav id="header-nav"> 
+      <h2>Menu 1</h2>
+      <ul>
+        <li><a href="#artigos">Artigos</a></li>
+        <li><a href="#rodape">Footer</a></li>
+      </ul>
+    </nav>
+
+    <!-- O MAIN é usado para referenciar a sessão principal do site/blog. -->
+    <main id="artigos">
+      <h1>Artigos</h1>
+
+      <!-- O ARTICLE é usado para referenciar artigos, texto, redação, como conteúdos independentes em si. -->
+      <article>
+        <!-- O HEADER está sendo usado usado para criar o cabeçalho do ARTICLE. -->
+        <header>
+          <h1>Artigo #1</h1>
+          <p><mark>Escrito por Carl Sagan</mark></p>
+        </header>
+        <!-- O SECTION esta sendo usado para criar a sessão principal do ARTICLE. -->
+        <section>
+          <h4>Carl Sagan</h4>
+          <p>Está é uma seção do artigo...</p>
+        </section>
+        <!-- O FIGURE é usado para referenciar uma sessão de imagem, nesse caso a sessão de imagem do ARTICLE. -->
+        <figure>
+          <img src="https://thclub.com.br/wp-content/uploads/2021/11/o-CARL-SAGAN-MARIJUANA-facebook.jpg" alt="Carl Sagan">
+          <!-- O FIGCAPTION é usado para referenciar a legenda da IMAGEM. -->
+          <figcaption>
+            Carl Sagan em palestra
+          </figcaption>
+        </figure>
+      </article>
+
+      <!-- O ARTICLE  é usado para referenciar artigos, texto, redação, como conteúdos independentes em si. -->
+      <article>
+        <!-- O HEADER está sendo usado usado para criar o cabeçalho do ARTICLE. -->
+        <header>
+          <h1>Artigo #2</h1>
+          <p><mark>Escrito por Isaac Newton</mark></p>
+        </header>
+        
+        <!-- O SECTION é usado para referenciar a sessão principal do ARTICLE. -->
+        <section>
+          <h4>Isaac Newton</h4>
+          <p>Está é uma seção do artigo...</p>
+        </section>
+
+        <!-- O FIGURE é usado para referenciar uma sessão de imagem, nesse caso a sessão de imagem do ARTICLE. -->
+        <figure>
+          <img src="https://www.oficinadanet.com.br/imagens/post/15839/capa.jpg" alt="Isaac Newton">
+
+          <!-- O FIGCAPTION é usado para referenciar a legenda da IMAGEM. -->
+          <figcaption>
+            Isaac Newton segurando o sistema solar
+          </figcaption>
+        </figure>
+      </article>
+    </main>
+
+    <!-- O ASIDE é usado para referenciar uma sessão que é relacionado tangencialmente ao conteúdo mas é considerado separado do conteúdo.-->
+    <aside>
+      <h2>Links externos</h2>
+      <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/Carl_Sagan">Carl Sagan</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Isaac_Newton">Isaac Newton</a></li>
+      </ul>
+    </aside>
+
+    <!-- O FOOTER é usado para referenciar o rodapé do conteúdo. -->
+    <footer id="rodape">
+      <!-- O ADDRESS é usado para referenciar informações como direitos autorais ou links para documentos relacionados. -->
+      <address>Site criado Por Luiz Felipe S. - Contato: (11)00000-0000</address>
+
+      <!-- O NAV é usado para referenciar um menu de navegação. -->
+      <nav id="rodape-nav"> 
+        <h2>Menu 2</h2>
+        <ul>
+          <li><a href="#artigos">Artigos</a></li>
+          <li><a href="#rodape">Footer</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
