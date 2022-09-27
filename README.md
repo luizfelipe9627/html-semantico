@@ -1,7 +1,7 @@
 # HTML Semântico
 <img src="https://miro.medium.com/max/1838/1*NjJoYvshr5Jyj4HMu0aXnA.jpeg" alt="Html Semântico">
 
-## 📄 Descrição
+## :thought_balloon: Conceito
 ML semântico é o uso de marcação HTML para reforçar a semântica, ou significado, das informações em páginas da Web e aplicativos da Web, em vez de meramente definir sua apresentação ou aparência. O HTML semântico é processado por navegadores da Web tradicionais, bem como por muitos outros agentes de usuário.
 
 ## 💻 Tecnologias utilizadas
